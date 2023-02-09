@@ -10,15 +10,29 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;500;600;700&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
 </head>
-<body class="bg-blue-400 text-white font-poppins">
-    <header>
-        <div class="container">
+<body class="bg-body text-white font-poppins pb-12">
+    <header class="py-6">
+        <div class="container 
+                    flex 
+                    justify-between 
+                    items-center 
+                    mx-auto 
+                    px-8 
+                    md:px-14
+                    lg:px-24
+                    w-full"> 
             <div class="text-lg">Jonathan.doe</div>
-            <div class="">
+            <div class="hidden 
+                        md:flex 
+                        space-x-12 
+                        items-center">
                 <a href="#" class="'text-selected-text">Home</a>
                 <a href="#work">My work</a>
                 <a href="#clients">Clients</a>
-                <a href="#hire"><button>Hire me</button></a>
+                <a href="#hire"><button class="px-6 
+                                               py-2
+                                               bg-theme
+                                                font-bold">Hire me</button></a>
             </div>
         </div>
     </header>

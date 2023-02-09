@@ -3,7 +3,7 @@ module.exports = {
   content: ["index.html"],
   theme: {
     extend: {
-      color: {
+      colors: {
         'body' : '#17171f',
         'selected-text' : '#a3a3ff',
         'theme' : '#3f3fff',
